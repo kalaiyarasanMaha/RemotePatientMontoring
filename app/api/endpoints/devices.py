@@ -132,7 +132,7 @@ def sync_device(
     
     response = {
         "message": "Device sync time updated",
-        "device_id": updated_device.id,
+        "device_id": updated_device.device_id,
         "last_sync_time": updated_device.last_sync_time.isoformat()
     }
     
